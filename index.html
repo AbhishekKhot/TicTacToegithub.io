@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tic Tac Toe</title>
-    </head>
-    <body>
-        <h1>This is my first app</h1>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <button id="game-reset">
+                <i id="reset" class="material-icons">autorenew</i>
+            </button>
+            <h1>Tic-Tac-Toe</h1>
+        </nav>
+    </header>
+    <main>
+        <h2 id="alerts">It's Player 1's Turn</h2>
+        <h3 id="scores">0 / 0</h3>
+        <div class="grid-contianer">
+            <div id="g1" , class="grid-tile"></div>
+            <div id="g2" , class="grid-tile"></div>
+            <div id="g3" , class="grid-tile"></div>
+            <div id="g4" , class="grid-tile"></div>
+            <div id="g4" , class="grid-tile"></div>
+            <div id="g5" , class="grid-tile"></div>
+            <div id="g6" , class="grid-tile"></div>
+            <div id="g7" , class="grid-tile"></div>
+            <div id="g8" , class="grid-tile"></div>
+            <div id="g9" , class="grid-tile"></div>
+        </div>
+        <button id="btn" style="color: blue;">reset</button>
+    </main>
+</body>
+<script src="index.js"></script>
+
 </html>
