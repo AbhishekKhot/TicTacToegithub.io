@@ -4,21 +4,6 @@
     padding: 0;
 }
 
-/* nav{
-    background-color: rgb(3, 163, 255);
-    color: white;
-    height: 65px;
-    font-size: 27px;
-    display: flex;
-    align-items: center;
-    padding: 0 12px;
-    font-family: 'Roboto', sans-serif;
-}
-
-nav ul{
-    list-style-type: none;
-} */
-
 .gameContainer{ 
     display: flex;
     justify-content: center;
@@ -34,7 +19,7 @@ nav ul{
 }
 
 .box{
-    border: 2px solid black;
+    border: 2px solid rgb(1, 177, 253);
     font-size: 8vw;
     cursor: pointer;
     display: flex;
@@ -84,7 +69,7 @@ nav ul{
 #reset {
     margin: 0 23px;
     padding: 1px 18px;
-    background: #f3e7f9;
+    background: rgb(1, 177, 253);
     border-radius: 6px;
     cursor: pointer;
     font-family: 'Baloo Bhaina 2';
@@ -95,9 +80,9 @@ nav ul{
 .line{
     background-color: black;
     height: 3px;
-    width: 0;
+    width:0;
     position: absolute;
-    background-color: #911d91;
+    background-color: #000000;
     transition: width 1s ease-in-out;
 }
 
